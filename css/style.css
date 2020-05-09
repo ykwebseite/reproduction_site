@@ -1,0 +1,211 @@
+h1, h2, h3, ul, li {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+  color: #666;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+a {
+  color: #666;
+  transition: 0.3s;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+
+header img.logo {
+  width: 400px;
+  margin: 40px auto;
+}
+
+a.h-logo {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+
+img.mainimg {
+  border-radius: 10px;
+
+}
+
+
+nav {
+  text-align: center;
+  margin: 30px auto;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 15px 30px;
+}
+
+nav ul li a:hover {
+  color: rgb(208, 128, 71);
+  border-bottom: 5px solid rgb(208, 128, 71);
+}
+
+section h2 {
+  clear: both;
+  margin-bottom: 20px;
+  color: #ffffff;
+  padding: 10px 20px;
+  background: rgb(208, 128, 71);
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+section dl {
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+section dt {
+  font-weight: bold;
+  float: left;
+  width: 8em;
+}
+
+section dl dd {
+  padding-left: 8em;
+  margin-left: -40px;
+  line-height: 2;
+}
+
+.ta1  {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.ta1 caption {
+  border: 1px solid #999;
+  border-bottom: none;
+  text-align: left;
+  background: #eee;
+  padding: 10px;
+  font-weight: bold;
+}
+
+th, td {
+  border: 1px solid ;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.ta1, .ta1 td, .ta1 th {
+  word-break: break-all;
+  border: 1px solid #999;
+  padding: 10px;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+th {
+  text-align: center;
+  width: 30%;
+}
+
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+section h3 {
+  font-size: 18px;
+  clear: both;
+  margin-bottom: 20px;
+  padding: 8px 20px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+}
+
+ p{
+  display: block;
+  margin-inline-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  line-height: 2;
+  padding: 0 0px 20px;
+}
+
+.look {
+  background: #e5e5e5;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.color1 {
+  color: rgb(208, 128, 71);
+  font-weight: bold;
+}
+
+.list {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+
+.list img {
+  width: 20%;
+  float: left;
+  margin-right: 3%;
+}
+
+h4 {
+  color: rgb(208, 128, 71);
+}
+
+.list h4 {
+ margin: 0;
+}
+
+.list p {
+  margin: 0px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-under {
+  font-size: 12px;
+}
